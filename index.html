@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="hos-FW.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon (1).ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet">
+    <title>QUIZ APP</title>
+  </head>
+
+  <body>
+    <div class="quiz-app">
+
+      <div class="quiz-info">
+        <h2>quiz application</h2>
+        <div class="category">category : <span></span></div>
+        <div class="count">Questions Count: <span></span></div>
+      </div>
+
+      <div class="bullets-and-count">
+        <div class="bullets"></div>
+
+        <div class="count-down">
+          <span class="minutes">00</span>:<span class="seconds">00</span>
+        </div>
+      </div>
+      <div class="start">
+        <p>select the desired test</p>
+        <select>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+        </select>
+        <button class="go">Start</button>
+      </div>
+      <div class="quiz-area">
+        <h2></h2>
+      </div>
+
+      <div class="answers-area">
+        <div class="answer">
+          <input type="radio" name="questions" id="answer_1" >
+          <label for="answer_1"></label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="questions" id="answer_2">
+          <label for="answer_2"></label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="questions" id="answer_3">
+          <label for="answer_3"></label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="questions" id="answer_4">
+          <label for="answer_4"></label>
+        </div>
+      </div>
+
+      <button class="submit-button">Submit Answer</button>
+
+      <div class="result">
+        <p>you finished ( <span class="test-name"></span> ) test</p>
+        <p>your score is <span class="score"></span>/<span class="full-mark"></span></p>
+        <span></span>
+        <button>test again</button>
+      </div>
+    </div>
+
+
+
+
+
+
+    <script src="main.js"></script>
+  </body>
+
+</html>

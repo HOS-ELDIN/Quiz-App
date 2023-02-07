@@ -1,0 +1,129 @@
+/* start global rules */
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+input, textarea, button, select {
+  font: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Mobile */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+/*Small Screens */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium Screens */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large Screens */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* end global rules */
+
+/* ------------copy to CSS------------ */
+/* start variables */
+/* end variables */
+
+/* start global rules */
+/* body {
+  font-family: "Work Sans", sans-serif;
+} */
+/* end global rules */
+
+/* start component */
+/* end component */
+
+/* start header */
+/* end header */
+
+/* start landing section  */
+/* end landing section  */
+
+/* strat features */
+/* end features */
+
+/* start of services */
+/* end of services */
+
+/* start of portfolio */
+/* end of portfolio */
+
+/* start of about */
+/* end of about */
+
+/* start of contact */
+/* end of contact */
+
+/* footer start */
+/* footer end */
+
+
+/* ------------copy to HTML----------- */
+<!-- /* start header */ -->
+<!-- /* end header */ -->
+
+<!-- /* start landing section  */ -->
+<!-- /* end landing section  */ -->
+
+<!-- /* strat features */ -->
+<!-- /* end features */ -->
+
+<!-- /* start of services */ -->
+<!-- /* end of services */ -->
+
+<!-- /* start of portfolio */ -->
+<!-- /* end of portfolio */ -->
+
+<!-- /* start of about */ -->
+<!-- /* end of about */ -->
+
+<!-- /* start of contact */ -->
+<!-- /* end of contact */ -->
+
+<!-- /* footer start */ -->
+<!-- /* footer end */ -->
